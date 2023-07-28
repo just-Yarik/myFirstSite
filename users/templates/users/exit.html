@@ -1,0 +1,10 @@
+{% extends 'main/base.html' %}
+
+{% block title%}
+Ви успішно покинули аккаунт
+{% endblock %}
+
+ {% block main %}
+<h1 class="h-reg">Ви успішно покинули аккаунт</h1>
+<a href="{% url 'user' %}" class="login">Увійти</a>
+   {% endblock %}

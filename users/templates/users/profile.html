@@ -1,0 +1,13 @@
+{% extends 'main/base.html' %}
+
+{% block title%}
+Кабинет користувача
+{% endblock %}
+
+ {% block main %}
+<div class="div-prof">
+<h1>Кабинет користувача</h1>
+<h2>Добрий день ! <u>{{ user.username }}</u><h2>
+    <h3>Ваша пошта: {{ user.email}}</h3>
+    </div>
+   {% endblock %}
